@@ -5,10 +5,10 @@ recommendation is filtered by set of filters to check if it is filter out conten
 time with regards to provided recommendations window, it is discarded if not. Recommendations are generated until specified
 number is generated and cached for 5 minutes using Memcached. Path to generate recommendations is /recs/personalised and following request parameters are required:
 
-num - number of recommendations to generate
-start - timestamp of beginning window for which to generate recommendations
-end - timestamp of ending of window for which to generate recommendations
-subscriber - unique identifier of subscriber Result is returned in XML format.
+* num - number of recommendations to generate
+* start - timestamp of beginning window for which to generate recommendations
+* end - timestamp of ending of window for which to generate recommendations
+* subscriber - unique identifier of subscriber Result is returned in XML format.
 
 For example following http call:
 [http://localhost:8080/recs/personalised?num=5&start=1433635775807&end=1433642495807&subscriber=foo](http://localhost:8080/recs/personalised?num=5&start=1415286463203&end=1415294605557&subscriber=foo)
