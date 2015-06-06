@@ -1,5 +1,4 @@
-# sky-java-spring-recs-engine
-
+# Sky Java Spring Recs-engine
 
 Recs-Engine is a Java Spring web service which is generating requested number of recommendations for url query. Each generated
 recommendation is filtered by set of filters to check if it is filter out content that is already past 60% of its running
@@ -18,29 +17,29 @@ For example following http call:
 <?xml version="1.0" encoding="UTF-8"?>
 <recommendations>
    <recommendations>
-      <uuid>1f18536a-e86f-4781-9819-7b3e7d385908</uuid>
-      <start>1415288463203</start>
-      <end>1415289998492</end>
+      <uuid>c9ce65da-2d6c-45b7-a008-e57c38afb20d</uuid>
+      <start>1433635775807</start>
+      <end>1433642495807</end>
    </recommendations>
    <recommendations>
-      <uuid>c3a6ac38-16b1-41da-83f8-077aff4841d6</uuid>
-      <start>1415284772998</start>
-      <end>1415289302319</end>
+      <uuid>9f5ed573-dd7a-42d6-8046-6331917eaafd</uuid>
+      <start>1433606855807</start>
+      <end>1433612315807</end>
    </recommendations>
    <recommendations>
-      <uuid>42d34321-3283-467c-89dd-36983d8e4f4e</uuid>
-      <start>1415290983863</start>
-      <end>1415294905557</end>
+      <uuid>be46b7da-ae48-4823-95e3-688aa8d8c081</uuid>
+      <start>1433628755807</start>
+      <end>1433635835807</end>
    </recommendations>
    <recommendations>
-      <uuid>b5408d7c-688a-48f5-ae04-7d78765c3f3f</uuid>
-      <start>1415289589667</start>
-      <end>1415290372753</end>
+      <uuid>10fd137b-0532-42d3-b075-f97ac66a2b49</uuid>
+      <start>1433626295808</start>
+      <end>1433633315808</end>
    </recommendations>
    <recommendations>
-      <uuid>4d6bf32d-11d8-4b82-9b2b-07bc612a6060</uuid>
-      <start>1415290982236</start>
-      <end>1415292219539</end>
+      <uuid>715b085c-1a0c-4aa6-a031-ba436b8ed94a</uuid>
+      <start>1433636495808</start>
+      <end>1433643155808</end>
    </recommendations>
 </recommendations>
 ```
