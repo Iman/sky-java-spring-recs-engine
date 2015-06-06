@@ -11,7 +11,7 @@ end - timestamp of ending of window for which to generate recommendations
 subscriber - unique identifier of subscriber Result is returned in XML format.
 
 For example following http call:
-[http://localhost:8080/recs/personalised?num=5&start=1415286463203&end=1415294605557&subscriber=asd](http://localhost:8080/recs/personalised?num=5&start=1415286463203&end=1415294605557&subscriber=asd)
+[http://localhost:8080/recs/personalised?num=5&start=1433635775807&end=1433642495807&subscriber=foo](http://localhost:8080/recs/personalised?num=5&start=1415286463203&end=1415294605557&subscriber=foo)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
